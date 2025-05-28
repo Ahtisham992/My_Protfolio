@@ -16,7 +16,6 @@
             display: block;
         }
 
-        /* Default menu styles */
         #menu {
             display: none;
         }
@@ -26,7 +25,6 @@
                 display: flex !important;
             }
 
-            /* Hide the toggle button on larger screens */
             #menu-toggle-btn {
                 display: none;
             }
@@ -35,16 +33,13 @@
 </head>
 
 <body class="bg-gradient-to-br from-blue-50 to-purple-100">
-    <!-- Navigation Bar -->
     <nav class="bg-gradient-to-r from-purple-500 via-blue-500 to-purple-600 shadow-lg sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4">
             <div class="flex justify-between items-center py-4">
-                <!-- Logo -->
                 <div>
                     <a href="index.html" class="text-2xl font-bold text-white">My Portfolio</a>
                 </div>
 
-                <!-- Mobile Menu Button -->
                 <div class="md:hidden">
                     <label for="menu-toggle" id="menu-toggle-btn" class="cursor-pointer flex items-center px-3 py-2 border rounded text-white border-gray-400">
                         <svg class="fill-current h-4 w-4" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -54,10 +49,8 @@
                     </label>
                 </div>
 
-                <!-- Hidden Checkbox to Control Menu Toggle -->
                 <input type="checkbox" id="menu-toggle" class="hidden">
 
-                <!-- Menu Items -->
                 <div id="menu" class="md:flex flex-col md:flex-row md:space-x-6 space-y-2 md:space-y-0 mt-2 md:mt-0">
                     <a href="index.html" class="block text-white hover:text-gray-200">Home</a>
                     <a href="profile.html" class="block text-white hover:text-gray-200">Personal Profile</a>
@@ -71,10 +64,9 @@
         </div>
     </nav>
 
-    <!-- Profile Section -->
     <section class="max-w-4xl mx-auto py-12 px-6 bg-white bg-opacity-90 rounded-lg shadow-lg mt-8">
         <div class="text-center">
-            <img src="assets/images/profile.jpg" class="w-40 h-40 mx-auto rounded-full border-4 border-purple-500" alt="Profile Picture">
+            <img src="assets/images/img.png" class="w-40 h-40 mx-auto rounded-full border-4 border-purple-500" alt="Profile Picture">
             <h2 class="text-3xl font-semibold mt-4 text-purple-600">Muhammad Ahtisham</h2>
             <p class="mt-2 text-gray-700">A passionate web & mobile developer. Pursuing a bachelor's degree in Software Engineering.</p>
         </div>
@@ -105,7 +97,6 @@
         </div>
     </section>
 
-    <!-- Optional Footer -->
     <footer class="bg-gradient-to-r from-purple-500 via-blue-500 to-purple-600 text-white py-6 mt-12">
         <div class="max-w-7xl mx-auto px-4 text-center">
             <p>&copy; 2024 Muhammad Ahtisham. All rights reserved.</p>
