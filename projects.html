@@ -12,7 +12,7 @@
             display: none;
         }
 
-        #menu-toggle:checked + #menu {
+        #menu-toggle:checked+#menu {
             display: block;
         }
 
@@ -42,7 +42,8 @@
                 </div>
 
                 <div class="md:hidden">
-                    <label for="menu-toggle" id="menu-toggle-btn" class="cursor-pointer flex items-center px-3 py-2 border rounded text-white border-gray-400">
+                    <label for="menu-toggle" id="menu-toggle-btn"
+                        class="cursor-pointer flex items-center px-3 py-2 border rounded text-white border-gray-400">
                         <svg class="fill-current h-4 w-4" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <title>Menu</title>
                             <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
@@ -68,46 +69,106 @@
     <section class="max-w-7xl mx-auto py-12 px-6 bg-white bg-opacity-90 rounded-lg shadow-lg mt-8">
         <h2 class="text-4xl font-semibold text-purple-600 text-center mb-10">Projects</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+            <!-- Existing projects remain unchanged above -->
+
+            <div
+                class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+                <h3 class="text-2xl font-semibold text-gray-900">Chess Game</h3>
+                <p class="text-gray-700 mt-2">A fully functional chess game supporting AI vs Human, AI vs AI, and Human
+                    vs Human modes. Used Minimax with Alpha-Beta Pruning for AI logic.</p>
+                <p class="text-gray-500 mt-1">Technologies: Python</p>
+                <a href="https://github.com/Ahtisham992/chessGame"
+                    class="text-blue-600 mt-4 inline-block hover:text-blue-800">GitHub Link</a>
+            </div>
+
+            <div
+                class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+                <h3 class="text-2xl font-semibold text-gray-900">Console Ludo Game</h3>
+                <p class="text-gray-700 mt-2">An engaging console-based Ludo game with intuitive turn-based logic and
+                    real-time user interaction.</p>
+                <p class="text-gray-500 mt-1">Technologies: C++</p>
+                <a href="https://github.com/Ahtisham992/consoleLudoGame"
+                    class="text-blue-600 mt-4 inline-block hover:text-blue-800">GitHub Link</a>
+            </div>
+
+            <div
+                class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+                <h3 class="text-2xl font-semibold text-gray-900">EventVerse – Event Management System</h3>
+                <p class="text-gray-700 mt-2">A web app with event registration, attendee management, and report
+                    generation for event analysis.</p>
+                <p class="text-gray-500 mt-1">Technologies: C#, ASP.NET Web Forms</p>
+                <a href="https://github.com/Ahtisham992/eventVerse"
+                    class="text-blue-600 mt-4 inline-block hover:text-blue-800">GitHub Link</a>
+            </div>
+
+            <div
+                class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+                <h3 class="text-2xl font-semibold text-gray-900">University Management System</h3>
+                <p class="text-gray-700 mt-2">Streamlined university operations including student/faculty management and
+                    course registration with dynamic dashboards.</p>
+                <p class="text-gray-500 mt-1">Technologies: MongoDB, Express.js, React.js, Node.js (MERN Stack)</p>
+                <a href="https://github.com/Ahtisham992/universityManagementSystem"
+                    class="text-blue-600 mt-4 inline-block hover:text-blue-800">GitHub Link</a>
+            </div>
+
+            <div
+                class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 border border-gray-200">
                 <h3 class="text-2xl font-semibold text-gray-900">Meal App</h3>
-                <p class="text-gray-700 mt-2">A meal selection app with recipe details, filters for vegetarian options, and favorite meal features.</p>
+                <p class="text-gray-700 mt-2">A meal selection app with recipe details, filters for vegetarian options,
+                    and favorite meal features.</p>
                 <p class="text-gray-500 mt-1">Technologies: Flutter & Dart</p>
-                <a href="https://github.com/Ahtisham992/mealApp" class="text-blue-600 mt-4 inline-block hover:text-blue-800">GitHub Link</a>
+                <a href="https://github.com/Ahtisham992/mealApp"
+                    class="text-blue-600 mt-4 inline-block hover:text-blue-800">GitHub Link</a>
             </div>
 
-            <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+            <div
+                class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 border border-gray-200">
                 <h3 class="text-2xl font-semibold text-gray-900">Expense Tracker</h3>
-                <p class="text-gray-700 mt-2">A mobile expense tracker app with expense management, graphical visualization, and responsive design.</p>
+                <p class="text-gray-700 mt-2">A mobile expense tracker app with expense management, graphical
+                    visualization, and responsive design.</p>
                 <p class="text-gray-500 mt-1">Technologies: Flutter & Dart</p>
-                <a href="https://github.com/Ahtisham992/expenseTrackerApp" class="text-blue-600 mt-4 inline-block hover:text-blue-800">GitHub Link</a>
+                <a href="https://github.com/Ahtisham992/expenseTrackerApp"
+                    class="text-blue-600 mt-4 inline-block hover:text-blue-800">GitHub Link</a>
             </div>
 
-            <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+            <div
+                class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 border border-gray-200">
                 <h3 class="text-2xl font-semibold text-gray-900">Instagram-like Console App</h3>
-                <p class="text-gray-700 mt-2">A console-based social media app simulating Instagram functionalities like posting, messaging, and user management.</p>
+                <p class="text-gray-700 mt-2">A console-based social media app simulating Instagram functionalities like
+                    posting, messaging, and user management.</p>
                 <p class="text-gray-500 mt-1">Technologies: C++, OOP</p>
-                <a href="https://github.com/Ahtisham992/instagramConsoleApp" class="text-blue-600 mt-4 inline-block hover:text-blue-800">GitHub Link</a>
+                <a href="https://github.com/Ahtisham992/instagramConsoleApp"
+                    class="text-blue-600 mt-4 inline-block hover:text-blue-800">GitHub Link</a>
             </div>
 
-            <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+            <div
+                class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 border border-gray-200">
                 <h3 class="text-2xl font-semibold text-gray-900">Favorite Place App</h3>
-                <p class="text-gray-700 mt-2">A mobile app integrating Google Maps API to mark and store user’s favorite locations with camera support.</p>
+                <p class="text-gray-700 mt-2">A mobile app integrating Google Maps API to mark and store user’s favorite
+                    locations with camera support.</p>
                 <p class="text-gray-500 mt-1">Technologies: Flutter, Dart, Google Maps API</p>
-                <a href="https://github.com/Ahtisham992/favoritePlaceApp" class="text-blue-600 mt-4 inline-block hover:text-blue-800">GitHub Link</a>
+                <a href="https://github.com/Ahtisham992/favoritePlaceApp"
+                    class="text-blue-600 mt-4 inline-block hover:text-blue-800">GitHub Link</a>
             </div>
 
-            <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+            <div
+                class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 border border-gray-200">
                 <h3 class="text-2xl font-semibold text-gray-900">Payroll Management System</h3>
-                <p class="text-gray-700 mt-2">A system to manage payroll processes, salary calculations, and employee data with JavaFX UI and MySQL integration.</p>
+                <p class="text-gray-700 mt-2">A system to manage payroll processes, salary calculations, and employee
+                    data with JavaFX UI and MySQL integration.</p>
                 <p class="text-gray-500 mt-1">Technologies: Java, JavaFX, MySQL</p>
-                <a href="https://github.com/Ahtisham992/payrollSystem" class="text-blue-600 mt-4 inline-block hover:text-blue-800">GitHub Link</a>
+                <a href="https://github.com/Ahtisham992/payrollSystem"
+                    class="text-blue-600 mt-4 inline-block hover:text-blue-800">GitHub Link</a>
             </div>
 
-            <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+            <div
+                class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300 border border-gray-200">
                 <h3 class="text-2xl font-semibold text-gray-900">Fast Food Delivery App</h3>
-                <p class="text-gray-700 mt-2">A fast food delivery web app where users can browse menus and place orders, built using HTML, CSS, and JavaScript.</p>
+                <p class="text-gray-700 mt-2">A fast food delivery web app where users can browse menus and place
+                    orders, built using HTML, CSS, and JavaScript.</p>
                 <p class="text-gray-500 mt-1">Technologies: HTML, CSS, JavaScript</p>
-                <a href="https://github.com/Ahtisham992/fastFoodDeliveryApp" class="text-blue-600 mt-4 inline-block hover:text-blue-800">GitHub Link</a>
+                <a href="https://github.com/Ahtisham992/fastFoodDeliveryApp"
+                    class="text-blue-600 mt-4 inline-block hover:text-blue-800">GitHub Link</a>
             </div>
         </div>
     </section>
@@ -116,13 +177,15 @@
         <div class="max-w-7xl mx-auto px-4 text-center">
             <p>&copy; 2024 Muhammad Ahtisham. All rights reserved.</p>
             <div class="flex justify-center mt-4 space-x-6">
-                <a href="https://www.linkedin.com/in/m-ahtisham-6116ba2b2/" class="hover:text-gray-200 transition-colors duration-300">
+                <a href="https://www.linkedin.com/in/m-ahtisham-6116ba2b2/"
+                    class="hover:text-gray-200 transition-colors duration-300">
                     <i class="fab fa-linkedin fa-lg"></i>
                 </a>
                 <a href="https://github.com/Ahtisham992" class="hover:text-gray-200 transition-colors duration-300">
                     <i class="fab fa-github fa-lg"></i>
                 </a>
-                <a href="https://www.instagram.com/_m_ahtish.05/" class="hover:text-gray-200 transition-colors duration-300">
+                <a href="https://www.instagram.com/_m_ahtish.05/"
+                    class="hover:text-gray-200 transition-colors duration-300">
                     <i class="fab fa-instagram fa-lg"></i>
                 </a>
                 <a href="mailto:shamimuhammad77@gmail.com" class="hover:text-gray-200 transition-colors duration-300">
